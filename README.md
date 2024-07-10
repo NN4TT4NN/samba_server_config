@@ -4,7 +4,11 @@
         <img src="assets/images/linux_logo.svg" width="5%" />
 </div>
 
+<br/>
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=12F700&pause=1000&random=false&width=800&lines=Sharing+files+with+Windows+through+Linux+Samba+Server.)](https://git.io/typing-svg)
+
+<br/>
 
 Today we will learn how to create a shared server on Linux so that Windows users can access it directly.
 
@@ -14,7 +18,10 @@ I decided to create this repository to show how we can configure shared remote a
 
 Without further ado... let's get to the point.
 
-# Sudo update everything and install samba
+<br/>
+<br/>
+
+# _Sudo update everything and install samba_
 
 Assuming that you already have your linux machine, let's get those packages and dependencies updated:
 
@@ -46,9 +53,8 @@ You will also need the `systemctl` command, and to set it up, you can follow thi
 
 <br/>
 <br/>
-<br/>
 
-# Creating users, groups, and limiting access
+# _Creating users, groups, and limiting access_
 
 In our scenario, we will create a folder where people can share their files and information.
 
@@ -98,9 +104,8 @@ chmod 770 /var/contabilidade/
 
 <br/>
 <br/>
-<br/>
 
-# Creating samba user access 
+# _Creating samba user access_
 
 This is an important step, because if you overstep or miss it, there's no way it can work.
 
@@ -114,10 +119,9 @@ smb passwd -a eliz
 
 <br/>
 <br/>
-<br/>
 
 
-# Structuring SMB Connection and Protocols
+# _Structuring SMB Connection and Protocols_
 
 You can learn more about these tools on [samba.org](https://www.samba.org/).
 
@@ -181,9 +185,8 @@ And then added the "**contabilidade**" configuration.
 
 <br/>
 <br/>
-<br/>
 
-# Authenticating 
+# _Authenticating_ 
 
 Now, everything you need to do is copy and paste the Linux Machine ip address into the Windows execution command.
 
