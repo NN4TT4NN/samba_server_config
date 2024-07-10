@@ -1,4 +1,10 @@
-# Sharing files with Windows through Linux Samba Server
+<div style="display: flex; align-items: center; margin-bottom: 3%">
+        <img src="assets/images/windows_logo.svg" width="5%" />
+        <img src="assets/images/seta.svg" width="3%" />
+        <img src="assets/images/linux_logo.svg" width="5%" />
+</div>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=12F700&pause=1000&random=false&width=800&lines=Sharing+files+with+Windows+through+Linux+Samba+Server.)](https://git.io/typing-svg)
 
 Today we will learn how to create a shared server on Linux so that Windows users can access it directly.
 
@@ -170,6 +176,9 @@ And then added the "**contabilidade**" configuration.
 - **write list = @contabilidade** - means that only this group can write into the contabilidade folder
 - **browseable = yes** - it makes sure that you can browse the files into your Windows machine
 
+**NOTE:** _you can check out the scripts folder in this repository, there's a configuration file **smb.conf**, you can take a look at the configuration and it's explaning in the bottom of that file._
+
+
 <br/>
 <br/>
 <br/>
@@ -182,6 +191,11 @@ Now, everything you need to do is copy and paste the Linux Machine ip address in
 \\172.21.176.218\contabilidade
 `````
 
-It'll ask you for the Samba's user crendentials that you have created previously.
+You'll be asked for Samba's user crendentials that you have created previously.
 
 **NOTE:** _remember to configure the firewall for allowing tcp and udp traffic at port 445, that is the default port for smb protocol communication between Windows machines._
+
+<hr/>
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=12F700&pause=1000&random=false&width=1000&lines=Thank+you+for+reading+this+...+i+hope+it+can+help+you+guys.;Happy+Hacking!)](https://git.io/typing-svg)
